@@ -4,8 +4,8 @@
 class recurr {
 	static void printFun(int test)
 	{
-		if (test < 1)
-			return;
+		if (test < 1){
+			return;}
 
 		else {
 			System.out.println(test);
@@ -20,7 +20,7 @@ class recurr {
 
 	public static void main(String[] args)
 	{
-		int test = 3;
+		int test = 5;
 		printFun(test);
 	}
 }
