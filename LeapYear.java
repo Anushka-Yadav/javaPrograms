@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class LeapYear {
     public static boolean isLeap(int n) {
-
+        
         if(n%4 == 0 ){
             if(n%100 == 0 && n%400 == 0){
                 return true;
